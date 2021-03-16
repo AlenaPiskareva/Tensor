@@ -22,9 +22,11 @@ while True:
             n = int(input('''
     Выберете:
     1. Функция о вкладе.
-    Выход. \n '''))
+    2. Выход. \n '''))
         except:
             print('Еще раз')
             continue
         if n == 1:
             moneybox()
+        if n == 2:
+            break
